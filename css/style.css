@@ -1,0 +1,27 @@
+body { background: #c4d7e6; }
+
+a, a:visited { color: #333; }
+
+#container { padding-top: 20px; width: 980px; /*border-left: 2px #ddd solid;*/ /*border-right: 2px #ddd solid;*/ }
+
+header { padding: 10px; }
+
+#text-select { float: right; margin-right: 10px; }
+
+#vis { overflow: hidden; position: relative; }
+
+#status { padding: 0 0 20px 20px; }
+
+#bubble-background { fill: none; pointer-events: all; }
+
+.bubble-node { fill: #fff; -webkit-transition: all 0.3s; transition: all 0.3s; }
+
+.bubble-hover { opacity: 0.6; }
+
+.bubble-selected { fill: #4794D9; stroke: #228; stroke-width: 1.5px; }
+
+.active { color: #a6ba92; }
+
+a.bubble-label { font-family: helvetica, "times new roman", times, serif; color: inherit; cursor: pointer; display: block; text-align: center; text-decoration: none; line-height: 1em; position: absolute; pointer-events: none; }
+
+.bubble-label .bubble-label-value { font: 11px sans-serif; white-space: nowrap; }
