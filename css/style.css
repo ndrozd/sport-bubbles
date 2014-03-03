@@ -1,155 +1,62 @@
-body {
-    background: #C4D7E6
-}
+body { background: #c4d7e6; }
 
-a, a:visited {
-  color:#333;
-}
+a, a:visited { color: #333; }
 
+body { background-color: #DFEDFE; }
 
-body {
-  background-color: #DFEDFE;
-}
+#container { width: 980px; }
 
-#container {
-  width: 980px;
-}
-.mtop-10 {
-  margin-top: 10px;
-}
-.mtop-30 {
-  margin-top: 30px;
-}
+.mtop-10 { margin-top: 10px; }
 
-header {
-  padding: 10px;
-}
+.mtop-30 { margin-top: 30px; }
 
-#text-select {
-  float:right;
-  margin-right: 10px;
-}
+header { padding: 10px; }
 
-#vis {
-  overflow: hidden;
-  position: relative;
-}
+#text-select { float: right; margin-right: 10px; }
 
-#status {
-  padding:0 0 20px 20px;
-}
+#vis { overflow: hidden; position: relative; }
 
-#bubble-background {
-  fill: none;
-  pointer-events: all;
-}
+#status { padding: 0 0 20px 20px; }
 
-.bubble-node {
-  fill: #fff;
-  transition: all 0.3s;
-}
+#bubble-background { fill: none; pointer-events: all; }
 
-.bubble-hover {
-  opacity: 0.6;
-}
+.bubble-node { fill: #fff; -webkit-transition: all 0.3s; transition: all 0.3s; }
 
-.bubble-selected {
-  fill:  #4794D9;
-  stroke: #228;
-  stroke-width: 1.5px;
-}
+.bubble-hover { opacity: 0.6; }
 
-.active {
-  color: #A6BA92
-}
+.bubble-selected { fill: #4794D9; stroke: #228; stroke-width: 1.5px; }
 
-a.bubble-label {
-  font-family: helvetica, "times new roman", times, serif;
-  color: inherit;
-  cursor: pointer;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  line-height: 1em;
-  position: absolute;
-  pointer-events:none;
-}
+.active { color: #a6ba92; }
 
+a.bubble-label { font-family: helvetica, "times new roman", times, serif; color: inherit; cursor: pointer; display: block; text-align: center; text-decoration: none; line-height: 1em; position: absolute; pointer-events: none; }
 
-.bubble-label .bubble-label-value {
-  font: 11px sans-serif;
-  white-space: nowrap;
-}
+.bubble-label .bubble-label-value { font: 11px sans-serif; white-space: nowrap; }
 
-h2 {
-  color: white;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.sports {
-  padding-top: 60px;
-  margin-top: 10px;
-}
+h2 { color: white; font-size: 32px; line-height: 40px; text-align: center; text-transform: uppercase; }
 
-.darker-bg{
-  background-color: #C4D7E6;
-}
-.rounded-top {
-  border-radius: 55% / 25%;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  width: 110%;
-  margin-left: -5%;
-}
-.rounded-wrap {
-  overflow: hidden;
-}
-.rounded-container {
-  padding: 0  5%;
-}
-.doublehr {
-  display: block;
-  text-align: center;
-}
+.sports { padding-top: 60px; margin-top: 10px; }
 
-.doublehr span{
-  display: inline-block;
-  content: "";
-  border-bottom:2px solid #C0D2E1;
-}
+.darker-bg { background-color: #C4D7E6; }
 
-.doublehr span:first-of-type{
-  display: inline-block;
-  width: 80%;
-}
-.doublehr span:last-of-type{
-  display: inline-block;
-  width: 60%;
-}
+.rounded-top { border-radius: 55% / 25%; border-bottom-left-radius: 0; border-bottom-right-radius: 0; width: 110%; margin-left: -5%; }
 
-.button {
-  background-color: #7DC384;
-  border-radius: 5px;
-  box-shadow: 0 4px 0 #679D6C;
-  width: 55%;
-  box-sizing: border-box;
-  display: inline-block;
-  min-width: 420px;
-  padding: 30px 0;
-  font-size: 25px;
-  color: white !important;
-/*  font-weight: bold;
-*/}
-.button:hover {
-  text-decoration: none;
-  background-color: #8Dd394;
-}
-.button:active {
-  box-shadow: none;
-  margin-top: 4px;
-}
-.tcenter {
-  text-align: center;
-}
+.rounded-wrap { overflow: hidden; }
+
+.rounded-container { padding: 0  5%; }
+
+.doublehr { display: block; text-align: center; }
+
+.doublehr span { display: inline-block; content: ""; border-bottom: 2px solid #C0D2E1; }
+
+.doublehr span:first-of-type { display: inline-block; width: 80%; }
+
+.doublehr span:last-of-type { display: inline-block; width: 60%; }
+
+.button { background-color: #7DC384; border-radius: 5px; box-shadow: 0 4px 0 #679D6C; width: 55%; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; min-width: 420px; padding: 30px 0; font-size: 25px; color: white !important; /*  font-weight: bold;
+*/ }
+
+.button:hover { text-decoration: none; background-color: #8Dd394; }
+
+.button:active { box-shadow: none; margin-top: 4px; }
+
+.tcenter { text-align: center; }
