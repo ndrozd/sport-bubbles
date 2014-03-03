@@ -5,13 +5,13 @@ Bubbles = () ->
   
   
   width = 980
-  height = 600
+  height = 400
   data = []
   node = null
   label = null
-  margin = {top: 0, right: 0, bottom: 0, left: 0}
+  margin = {top: 40, right: 0, bottom: 20, left: 0}
   
-  maxRadius = 110
+  maxRadius = 95
 
   rScale = d3.scale.sqrt().range([13,maxRadius])
   
@@ -232,13 +232,13 @@ texts = [
 $ ->
   
   plot = Bubbles()
-  $("img, a, circle, svg").qtip
-    content: "Mouse tracking!"
-    position:
-      target: "mouse" 
-      adjust: 
-        x: 5
-        y: 5
+  # $("img, a, circle, svg").qtip
+  #   content: "Mouse tracking!"
+  #   position:
+  #     target: "mouse" 
+  #     adjust: 
+  #       x: 5
+  #       y: 5
 
   display = (data) ->
     plotData("#vis", data, plot)  

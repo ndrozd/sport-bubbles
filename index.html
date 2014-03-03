@@ -12,12 +12,29 @@
 <body>
 
   <div id="container" class="container">
-     
-    <div id="main" role="main">
-      <div id="vis"></div>
-      <div id="status"></div>
+    <div class="rounded-wrap">
+      <section class="sports darker-bg rounded-top">
+        <div class="rounded-container">
+          <h2>Популярность<br>видов спорта</h2>  
+          <div id="main" role="main">
+            <div id="vis"></div>
+            <div id="status"></div>
+          </div>
+        </div>
+      </section>
     </div>
-  
+
+    <div class="doublehr mtop-10">
+      <span></span>
+      <span></span>
+    </div>
+    
+    <section class="tcenter mtop-30">
+      <a href="#" class="button">Рассказать друзьям</a>
+    </section>
+
+    <br>
+    <br>
   </div> <!--! end of #container -->
 
 
@@ -38,7 +55,7 @@
             my: 'bottom left',
             adjust: { x: 5, y: 0 }
           },
-          style: {
+          style: { 
             classes: 'qtip-bootstrap',
           },
           adjust: {
